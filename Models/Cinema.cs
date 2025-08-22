@@ -16,6 +16,9 @@ namespace eCinema.Models
 
 		[Display(Name = "Discription")]
 		public string Description { get; set; }
+        public string Address { get; set; }
+        public string Phone { get; set; }
+        public string Email { get; set; }
 
         //Relations
         public virtual ICollection<Movie> Movies { get; set; } = new HashSet<Movie>();

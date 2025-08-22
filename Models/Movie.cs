@@ -27,8 +27,9 @@ namespace eCinema.Models
 
 		[Display(Name = "End Date")]
 		public DateTime EndtDate { get; set; }
+        public string TrailerUrl { get; set; }
 
-		[Display(Name = "Category")]
+        [Display(Name = "Category")]
 		public MovieCategory MovieCategory { get; set; }
 
         //Relations
